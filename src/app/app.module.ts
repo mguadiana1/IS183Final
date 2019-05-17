@@ -28,6 +28,7 @@ import { BeverageService } from './beverages/beverage.service';
 import { BeverageComponent } from './beverages/beverage/beverage.component';
 import { BeveragesComponent } from './beverages/beverages.component';
 import { BeverageCreateComponent } from './beverages/beverage-create/beverage-create.component';
+import { UsersComponent } from './users/users.component';
 
 // users components
 // ...
@@ -64,7 +65,8 @@ const appRoutes: Routes = [
     // beverages
     BeveragesComponent,
     BeverageCreateComponent,
-    BeverageComponent
+    BeverageComponent,
+    UsersComponent
     // users
     // ...
   ],
